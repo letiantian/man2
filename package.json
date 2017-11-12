@@ -1,0 +1,31 @@
+{
+  "name": "man2",
+  "version": "0.0.1",
+  "description": "another man",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "linux",
+    "man"
+  ],
+  "author": "letian",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "marked": "^0.3.6",
+    "marked-terminal": "^2.0.0",
+    "minimist": "^1.2.0",
+    "os-locale": "^2.1.0",
+    "path.join": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "bin": {
+    "man2": "./index.js"
+  }
+}
